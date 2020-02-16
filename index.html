@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <div class="Know Your Heritage">
+                <h1>Know Your Heritage</h1>
+                <p>The Akan Names are of Ghanian heritage and are frequently used to name children according to the day of the week in which they were born and in that order.This forms part of Ghanian culture and heritage.</p>
+                <a href="https://fairafric.com/let-the-name-speak-the-deep-meaning-of-ghanaian-first-names" class="btn btn-success" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+        <div class="container justify-content-center">
+            <form class="form-horizontal border p-2" onsubmit="return false">
+                <h2 class="page-header">DATA FORM</h2>
+                <hr>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control
+                    " value="">
+                </div> 
+                <div class="form-group">
+                    <label for="dateofbirth">Date of Birth</label>
+                    <input type="date" name="dateofbirth" id="dateofbirth" class="form-control
+                    ">
+                </div> 
+                <div class="form-group">          
+                    <label for="male">
+                        <input type="radio" name="gender" id="gender" value="m">Male
+                    </label>
+                </div>
+                <div class="form-group"> 
+                    <label for="female">
+                        <input id="gender" type="radio" name="gender" value="f">Female
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary form-control" onclick="getName()">Submit</button>
+                <hr>
+                <button type="Reset" class="btn btn-success form-control">Reset</button>
+            </form>
+    </div>
+</body>
+</html>
+

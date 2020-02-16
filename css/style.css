@@ -1,0 +1,10 @@
+body {
+    background: url('../Africa-Map-Kente.jpg');
+    background-size: cover;
+}
+.jumbotron {
+    display: flex;
+    font-weight: bolder;
+    color: #000;
+    background: transparent;
+}
