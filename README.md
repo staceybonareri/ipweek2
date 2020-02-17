@@ -17,4 +17,4 @@
 Stacey Lorraine Bonareri
 
 ## LIVE PAGE
-[Open Live Page](https://staceybonareri/github.com/ipweek2)
+[Open Live Page](https://https://staceybonareri.github.io/ipweek2/)
